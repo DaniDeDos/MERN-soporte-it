@@ -1,0 +1,54 @@
+1xx Informativo
+100 Continuar: La solicitud se está procesando y se espera continuar.
+101 Cambiando Protocolos: La solicitud se ha completado y el servidor está cambiando el protocolo de la respuesta.
+2xx Éxito
+200 OK: La solicitud ha sido procesada con éxito.
+201 Creado: La solicitud ha sido procesada y ha resultado en la creación de un nuevo recurso.
+202 Aceptado: La solicitud ha sido aceptada para procesarse, pero el procesamiento aún no ha comenzado.
+204 Sin Contenido: La solicitud ha sido procesada con éxito, pero no hay contenido para enviar en la respuesta.
+3xx Redirección
+300 Múltiples Elegidas: La solicitud tiene múltiples respuestas posibles.
+301 Movido Permanentemente: La solicitud y todos los futuros solicitudes deben ser dirigidas a la URI dada.
+302 Encontrado: La solicitud ha sido temporalmente redirigida a la URI dada.
+303 Ver Otro: La respuesta a la solicitud puede ser encontrada en otra URI utilizando el método GET.
+304 No Modificado: La solicitud no ha sido modificada desde la última solicitud.
+307 Redirección Temporal: La solicitud debe ser repetida con otra URI, pero con el método GET.
+308 Redirección Permanente: La solicitud y todos los futuros solicitudes deben ser dirigidas a la URI dada.
+4xx Error del Cliente
+400 Solicitud Incorrecta: La solicitud no pudo ser entendida por el servidor debido a una sintaxis mal formada.
+401 No Autorizado: La solicitud requiere autenticación del usuario.
+403 Prohibido: El servidor entendió la solicitud, pero se niega a autorizarla.
+404 No Encontrado: El servidor no pudo encontrar el recurso solicitado.
+405 Método No Permitido: El método especificado en la solicitud no está permitido para el recurso identificado por la URI.
+406 No Aceptable: El recurso solicitado es capaz de generar solo contenido no aceptable según los encabezados "Accept" enviados en la solicitud.
+408 Tiempo de Espera de Solicitud: El cliente no ha enviado una solicitud en el tiempo que el servidor estaba preparado para esperar.
+409 Conflicto: La solicitud no se pudo completar debido a un conflicto con el estado actual del recurso objetivo.
+410 Gone: El recurso solicitado ya no está disponible y no se conoce ninguna dirección de reenvío.
+411 Longitud Requerida: La longitud del contenido solicitado no está especificada o es inválida.
+412 Precondición Fallida: Una o más precondiciones dadas en la solicitud no se cumplen.
+413 Entidad Demasiado Grande: La solicitud es demasiado grande para el servidor procesarla.
+414 URI Demasiado Larga: La URI solicitada por el cliente es demasiado larga para el servidor procesarla.
+415 Tipo de Medio No Soportado: El formato del medio de la solicitud no es soportado por el recurso solicitado.
+416 Rango No Satisfactorio: No se puede satisfacer la solicitud de rango.
+417 Expectativa Fallida: La expectativa dada en el encabezado de la solicitud no se cumple.
+421 Misdirected Request: La solicitud fue mal dirigida.
+422 Entrada Incorrecta: La solicitud fue comprensible pero fue rechazada debido a errores semánticos.
+423 Bloqueado: El recurso está bloqueado.
+424 Dependencia Fallida: La solicitud depende de otra que ha fallado.
+426 Actualización Necesaria: El cliente debería cambiar a una versión diferente del protocolo.
+428 Precondición Requerida: El servidor requiere que la solicitud sea condicional.
+429 Demasiadas Solicitudes: El usuario ha enviado demasiadas solicitudes en un tiempo dado.
+431 Encabezados de Solicitud Demasiado Grandes: Los encabezados de la solicitud son demasiado grandes.
+451 Unavailable For Legal Reasons: El recurso está temporalmente no disponible debido a razones legales.
+5xx Error del Servidor
+500 Error Interno del Servidor: Un error inesperado ocurrió en el servidor.
+501 No Implementado: El servidor no soporta la funcionalidad requerida.
+502 Bad Gateway: El servidor, mientras actuaba como gateway o proxy, recibió una respuesta inválida del servidor ascendente.
+503 Servicio No Disponible: El servidor no puede manejar la solicitud debido a una sobrecarga temporal o mantenimiento.
+504 Gateway Timeout: El servidor, mientras actuaba como gateway o proxy, no recibió una respuesta a tiempo.
+505 HTTP Version Not Supported: La versión del protocolo HTTP utilizada en la solicitud no es soportada por el servidor.
+506 Variant Also Negotiates: El servidor ha detectado un bucle infinito de negociación de contenido.
+507 Insufficient Storage: El servidor está temporalmente incapaz de almacenar el recurso solicitado.
+508 Loop Detected: El servidor detectó un bucle infinito al intentar procesar la solicitud.
+510 Not Extended: La solicitud no puede ser completada por el servidor sin una extensión.
+511 Network Authentication Required: El cliente necesita autenticarse para acceder al recurso.
